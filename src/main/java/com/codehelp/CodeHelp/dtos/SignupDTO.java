@@ -1,0 +1,10 @@
+package com.codehelp.CodeHelp.dtos;
+
+import lombok.*;
+
+@Getter @Setter
+@NoArgsConstructor @AllArgsConstructor
+public class SignupDTO {
+    private String username;
+    private String password;
+}
